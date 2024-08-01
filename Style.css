@@ -1,0 +1,74 @@
+/*fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+/*Variables*/
+:root{
+    /*bgcolors*/
+
+    --background: #02050e;
+    --primary: #1e50ff;
+    --secondary: #272d37;
+    --bg-white: #fff;
+
+    /*text colors*/
+
+    --text-gray: #adb9c7;
+    --text-white: #f3f4f6;
+
+    /*decoracion*/
+
+    --fire: #ff6d00;
+    --electric: #64deff;
+}
+
+
+
+
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*******Comienzo******/
+
+body{
+    background-color: var(--background);
+}
+
+header{
+    background-color: var(--bg-white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar, .navbar-ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar-ul{
+    gap: 30px;
+
+}
+
+.navbar-ul a{
+    color: var(--background);
+    font-size: 16px;
+    font-family: 'Fredoka';
+}
+.logo{
+    height: 100%
+    
+}
