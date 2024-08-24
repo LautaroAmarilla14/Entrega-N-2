@@ -1,5 +1,6 @@
 /*fuente*/
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
 
 
 /*Variables*/
@@ -38,15 +39,15 @@
 /*******Comienzo******/
 
 body{
-    background-color: var(--background);
+    background-color:var(--background);
 }
 
 header{
-    background-color: var(--bg-white);
+    background-color:var(--bg-white);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 80px;
     height: 80px;
     position: fixed;
     width: 100%;
@@ -71,4 +72,111 @@ header{
 .logo{
     height: 100%
     
+}
+
+/*main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: var(--bg-white);
+    font-family: 'Fredoka' ;
+    padding: 70px;
+}
+
+#Meleys{
+    margin-top: 80px;
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Meleys-info{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ width: 70%;
+}
+
+.Meleys-info h2{
+    font-size: 48px;
+    font-weight: 800;
+    width: 70%;
+    font-family:'Moderustic' ;
+}
+
+.Meleys-info p{
+    font-size: 18px;
+    width: 70%;
+    color: var(--text-gray);
+}
+
+.Meleys-info div{
+    color: var(--bg-white);
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+    width: 70%;
+    }
+    
+    .a-1{
+        background-color: #fff;
+        color: var(--background);
+        border-radius: 15px;
+        padding: 10px;
+        border: solid 2px #272d37;
+        margin-right: 10px;
+    }
+
+    .a-2{
+        background-color: #272d37;
+        border-radius: 15px;
+        padding: 10px;
+        border: solid 2px #f3f4f6;
+        color: var(--bg-white);
+        margin-left: 10px;
+    }
+
+.Meleys-foto{
+    background-color: var(--secondary);
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.Meleys-foto h2{
+    font-family:'Moderustic' ;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.Meleys-foto h3{
+    font-family: 'Moderustic';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Meleys-foto p{
+    font-size: 16px;
+}
+
+footer{
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+    color: #adb9c7;
 }
