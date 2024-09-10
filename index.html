@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrega N°2</title>
     <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
 </head>
 <body>
     <header>
         <img src="./Imagenes/Meleys.png" alt="logo" class="logo">
         <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="./Imagenes/barra-de-menus.png" alt="menu icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
             <ul class="navbar-ul">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Productos</a></li>
@@ -26,11 +31,54 @@
                 <p>Meleys es una marca de moda que fusiona elegancia y comodidad en cada prenda. Diseñamos ropa con un enfoque en la calidad, la sostenibilidad y el estilo atemporal. Desde piezas casuales hasta conjuntos sofisticados, cada colección de Meleys refleja nuestra pasión por crear ropa que empodere y realce la individualidad. Descubre la esencia de la moda consciente con Meleys, donde cada diseño cuenta una historia única.</p>
                 <div><a href="#" class="a-1">Adquirir esta prenda</a> <a href="#"  class="a-2">Conocer mas productos</a></div>
             </div>
-            <div class="Meleys-foto"><img src="./Imagenes/a9014484-a6fd-4d63-bd01-57e9b2fff0d1.6f4d7e55698bd4e4fb9b6f161aae0aac.webp" alt="camiseta"><h2>Nombre: Nocturno Escocés
-            </h2><h3>Precio: $45</h3><p>Descripción: Camisa a cuadros negra y roja en algodón suave, combinando estilo clásico y confort. Ideal para un look casual y elegante.</p></div>
+            <div class="Meleys-foto"><img src="./Imagenes/a9014484-a6fd-4d63-bd01-57e9b2fff0d1.6f4d7e55698bd4e4fb9b6f161aae0aac.png" alt="camiseta"><h2>Nombre: Nocturno Escocés
+            </h2><h3>Precio: $45</h3><p>Descripción: Camisa a cuadros negra y roja en algodón suave, combinando estilo clásico y confort. Ideal para un look casual y elegante.</p><a class="a-3" href="#">Comprar</a></div>
         </section>
-        <footer><p>Bienvenido a Meleys, donde la pasión por la moda y la excelencia se encuentran. Nuestro equipo está dedicado a ofrecerte una experiencia de compra excepcional, basada en valores de calidad, innovación y atención al detalle. Nos inspiran los trabajos artesanales y el diseño atemporal, creando prendas que reflejan elegancia y confort. Al elegirnos, te sumerges en un mundo de estilo refinado y un servicio personalizado que realza cada momento de tu vida.</p></footer>
+
+        <div class="Div-description"><p>Bienvenido a Meleys, donde la pasión por la moda y la excelencia se encuentran. Nuestro equipo está dedicado a ofrecerte una experiencia de compra excepcional, basada en valores de calidad, innovación y atención al detalle. Nos inspiran los trabajos artesanales y el diseño atemporal, creando prendas que reflejan elegancia y confort. Al elegirnos, te sumerges en un mundo de estilo refinado y un servicio personalizado que realza cada momento de tu vida.</p></div>
+        
+        <section id="Cards">
+        <h2> Ventajas al contribuir con nosotros</h2>
+        <div class="ventaja-card-container">
+        <div class="ventaja-card">
+            <img src="./Imagenes/maletin.png" alt="icon" class="icon">
+            <h3>Ventaja N°1</h3>
+            <p>Compra en Meleys y disfruta de envíos gratuitos en pedidos superiores a 40 dólares, además de una política de devoluciones que te garantiza la satisfacción con cada compra. ¡Nuestra prioridad es que te sientas cómodo y seguro con cada compra que hagas!</p>
+        </div>
+        <div class="ventaja-card">
+            <img src="./Imagenes/crecer.png" alt="icon" class="icon">
+            <h3>Ventaja N°2</h3>
+            <p>En Meleys, cada compra viene con un programa de recompensas exclusivo que te permite acumular puntos con cada adquisición. Canjea esos puntos por descuentos especiales en futuras compras y aprovecha ofertas únicas solo para miembros. ¡Compra más y ahorra más con nosotros!</p>
+        </div>
+        <div class="ventaja-card">
+            <img src="./Imagenes/ideas.png" alt="icon" class="icon">
+            <h3>Ventaja N°3</h3>
+            <p> En Meleys, te ofrecemos una garantía de satisfacción del 100%. Si no estás completamente feliz con tu compra, nuestro equipo de atención al cliente está disponible para asistirte y resolver cualquier inconveniente. ¡Tu confianza y satisfacción son nuestra prioridad!</p>
+        </div>
+
+        </div>
+        </section>
+
+        <section id="contact-us">
+            <h2>Contactanos</h2>
+           <div class="div-img"><img src="./Imagenes/instagram.png" alt="instagram">
+            <img src="./Imagenes/facebook.png" alt="facebook">
+            <img src="./Imagenes/twitter.png" alt="X"></div>
+            <div class="contact-us-container">
+            <div class="contact-us-info1">
+                <h3><img src="./Imagenes/casa.png" alt="casa">Avenida Santa Fe 1234, CABA, Buenos Aires Argentina</h3>
+                <h3><img src="./Imagenes/smartphone.png" alt="celular">+54 11 1234-5678</h3>
+                <h3><img src="./Imagenes/email.png" alt="gmail" class="responsive-gmail">meleys.tienda@gmail.com</h3></div>
+            <div class="contact-us-info2">
+                <h3><img src="./Imagenes/casa.png" alt="casa">Córdoba 5678,San Isidro, Buenos Aires Argentina</h3>
+                <h3><img src="./Imagenes/smartphone.png" alt="celular">+54 11 2345-6789</h3>
+                <h3><img src="./Imagenes/email.png" alt="gmail" class="responsive-gmail">meleys.contacto@gmail.com</h3>
+                </div>
+            </div>
+            
+        </section>
     </main>
+    <footer><img src="./Imagenes/Meleys (1).png" alt="meleys"></footer>
 </body>
 </html>
         

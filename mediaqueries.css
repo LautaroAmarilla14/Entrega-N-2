@@ -1,0 +1,64 @@
+@media (max-width:992px) {
+    .contact-us-info1 h3{
+        font-size: 15px;
+    }
+
+    .contact-us-info2 h3{
+        font-size: 15px;
+    }
+
+    .ventaja-card h3{
+        font-size: 20px;
+    }
+
+    .ventaja-card p{
+        font-size: 13px;
+    }
+
+    .ventaja-card{
+        width: 250px;
+    
+}
+}
+
+
+
+@media (max-width:576px) {
+    .Meleys-foto{
+        display: none;
+    }
+    .Meleys-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .Meleys-info h2{
+        font-size: 40px;
+        width: 300px;
+        text-align: center;
+    }
+    .a-1{
+        display: none;
+    }
+    #Cards h2{
+        font-size: 20px;
+    }
+
+    .ventaja-card{width: 200px;
+    font-size: 10px;
+    height: 500px;    
+    }
+
+   .contact-us-info2 h3{
+    font-size: 11px;
+   }
+   
+   .contact-us-info1 h3{
+    font-size: 10px;
+   }
+    
+}
